@@ -1,4 +1,4 @@
-# SARAS-Net: Scale And Relation Aware Siamese Network for Change Detection
+# Reproduction of SARAS-Net: Scale And Relation Aware Siamese Network for Change Detection
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/saras-net-scale-and-relation-aware-siamese/change-detection-for-remote-sensing-images-on)](https://paperswithcode.com/sota/change-detection-for-remote-sensing-images-on?p=saras-net-scale-and-relation-aware-siamese)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/saras-net-scale-and-relation-aware-siamese/change-detection-on-dsifn-cd)](https://paperswithcode.com/sota/change-detection-on-dsifn-cd?p=saras-net-scale-and-relation-aware-siamese)
@@ -9,7 +9,7 @@
 
 ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)  `This paper has been accepted in AAAI-23.`
 
-For more information, please see our paper at [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/26660) or [arxiv](https://arxiv.org/abs/2212.01287).
+The original paper is at [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/26660) or [arxiv](https://arxiv.org/abs/2212.01287).
 
 **Overview of SARAS-Net:** 
 ![image](https://github.com/f64051041/SARAS-Net/blob/main/image/model.jpg)
@@ -26,13 +26,13 @@ torchvision: 0.8.1
 ```
 ## Installation
 ```ruby
-git clone https://github.com/f64051041/SARAS-Net.git  
+git clone git@github.com:YshGupta/Project_CV_Change_Detection.git  
 cd SARAS-Net  
 ```
 
-## Quick start
-Download LEVIR-CD weight : https://drive.google.com/file/d/1Gs6iYQcZI1Jm4NhthCwWI2olbO-bpvTd/view?usp=share_link  
-After downloaded the model weight, you can put it in `SARAS-Net/`.  
+## Quick start for Demo 
+Download LEVIR-CD weights from : https://drive.google.com/file/d/1Gs6iYQcZI1Jm4NhthCwWI2olbO-bpvTd/view?usp=share_link  
+After downloading the model weight, can put it in `SARAS-Net/`.  
 Then, run a demo to get started as follows:  
 ```ruby
 python demo.py
